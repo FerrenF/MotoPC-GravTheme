@@ -1,0 +1,22 @@
+{
+  "name": "moto-grav",
+  "version": "0.0.1",
+  "description": "MotoPC Grav Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerrenF/MotoPC-GravTheme.git"
+  },
+  "keywords": [
+    "motopc"
+  ],
+  "author": "Hunter W",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/FerrenF/MotoPC-GravTheme/issues"
+  },
+  "homepage": "https://github.com/FerrenF/MotoPC-GravTheme#readme"
+}

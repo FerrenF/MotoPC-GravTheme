@@ -1,0 +1,60 @@
+
+$primary: #3b5794;
+$primary-dark: #1a397e;
+$primary-light: #a7b5d3;
+
+$secondary: #fec503;
+$secondary-dark: #333;
+
+$accent-dark: #1a397e;
+$accent-light: #a7b5d3;
+
+
+$neutral-dark: #313e4a;
+$neutral-light: #cfd6e7;
+
+
+$fontStack: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+.Untitled {
+    --background: #ffffff;
+    --Dark17: #d3d6da;
+    --Dark33: #afb6bc;
+    --Dark50: #8d969f;
+    --Dark67: #6c7782;
+    --Dark83: #4d5a66;
+    --Dark100: #313e4a;
+    --Reddybrown17: #f8cdc3;
+    --Reddybrown33: #eaa496;
+    --Reddybrown50: #d57d6b;
+    --Reddybrown67: #bb5946;
+    --Reddybrown83: #9d3626;
+    --Reddybrown100: #7a1409;
+    --Mudgreen17: #d7d8b1;
+    --Mudgreen33: #b8b97c;
+    --Mudgreen50: #98994a;
+    --Mudgreen67: #797a1f;
+    --Mudgreen83: #5d5c00;
+    --Mudgreen100: #403f00;
+    --Deepgreen17: #c4deba;
+    --Deepgreen33: #92c184;
+    --Deepgreen50: #63a455;
+    --Deepgreen67: #38862c;
+    --Deepgreen83: #096805;
+    --Deepgreen100: #004800;
+    --Darkblue17: #cfd6e7;
+    --Darkblue33: #a7b5d3;
+    --Darkblue50: #8295bf;
+    --Darkblue67: #5d75aa;
+    --Darkblue83: #3b5794;
+    --Darkblue100: #1a397e;
+    --Darkishpurple17: #eacde3;
+    --Darkishpurple33: #d5a6cd;
+    --Darkishpurple50: #bf80b7;
+    --Darkishpurple67: #a55b9f;
+    --Darkishpurple83: #8a3786;
+    --Darkishpurple100: #6c0f6c;
+}
+
+@import "bootstrap.min";
+@import "agency";
