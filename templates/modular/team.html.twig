@@ -20,12 +20,21 @@
                     </div>
                 </div>
             {% endfor %}
-        </div>
-    </div>
-        <div class="row">
+            <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <p class="large text-muted">{{ page.header.description }}</p>
             </div>
         </div>
+        </div>
+    </div>
+        
+    <div class="row skill-cloud-container">
+            {% for skill in page.header.skillcloud %}
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ skill.url }}">
+                        <img src="{{ page.media[skill.logo].url|e }}" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            {% endfor %}
     </div>
 </section>

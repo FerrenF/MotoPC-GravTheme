@@ -296,51 +296,53 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    width: 60vw;
+    margin-top: 3vh;
 }
 
 header h1 {
     margin-bottom: 5px;
     font-family: "Public Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     font-style: italic;
-    line-height: 22px;
     text-transform: none;
+    display: inline-block;
+    padding-right:1vw;
 }
 
 header h2 {
     margin-bottom: 25px;
-    margin-top: 10px;
     text-transform: uppercase;
     font-family: $fontStack;
-    font-size: 50px;
+    font-size: 34px;
     font-weight: 700;
-    line-height: 50px;
+    display: inline-block;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
 
     header .intro-text h1 {
         margin-bottom: 10px;
         font-family: "Public Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 36px;
         font-style: italic;
         line-height: 10px;
+        display: block;
     }
 
     header .intro-text h2 {
-        margin-bottom: 50px;
         margin-top: 5px;
         text-transform: uppercase;
         font-family: $fontStack;
-        font-size: 75px;
+        font-size: 55px;
         font-weight: 700;
-        line-height: 75px;
+        display: block;
     }
 }
 
@@ -673,19 +675,14 @@ section#about .row{
 }
 section#team .container {
     border-radius: 20px;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    text-align: center;
+    padding: 2em;
+    text-align: left;
 }
 
 @media(min-width:1200px) {
     section#team .container {
         border-radius: 20px;
-        padding-top: 50px;
-        padding-left: 25px;
-        padding-right: 25px;
-        text-align: right;
+        text-align: left;
     }
 }
 
@@ -709,8 +706,15 @@ section#team .container {
 .team-member p {
     margin-top: 0.0em;
 }
+
+.skill-cloud-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 section#team .row > div.col-lg-8 p{
     margin-top: 0.5em;
+    text-align: right;
 }
 aside.clients img {
     border: 2px dotted $neutral-light;

@@ -4,7 +4,7 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 
-{% block content %}
+{% block content %}    
     {{ page.content|raw }}
     {% for module in page.collection() %}
         {{ module.content|raw }}
