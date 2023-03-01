@@ -5713,15 +5713,18 @@ section#services {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px; } }
 
-section#team .container {
+section .container {
   border-radius: 20px;
   padding: 2em;
   text-align: left; }
 
 @media (max-width: 768px) {
-  section#team .container {
+  section .container {
     margin-left: 2vw;
     margin-right: 2vw; } }
+
+section .container h4 {
+  padding-left: 30px; }
 
 .team-member {
   text-align: center;
@@ -5731,9 +5734,6 @@ section#team h2 {
   padding: 8px 0px 7px 20px;
   border-top: dotted thin #aaa;
   border-bottom: dotted thin #aaa; }
-
-section#team h4 {
-  padding-left: 30px; }
 
 @media (min-width: 1200px) {
   section#team .container {

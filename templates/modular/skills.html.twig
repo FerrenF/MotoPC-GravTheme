@@ -1,0 +1,17 @@
+<section id="skills" class="">
+    <div class="container bg-light-gray">
+        <div class="row">
+        {{ page.content|raw}}
+        </div>
+            <div class="row skill-cloud-container">
+            {% for skill in page.header.skillcloud %}
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ skill.url }}">
+                        <img src="{{ page.media[skill.logo].url|e }}" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            {% endfor %}
+            </div>
+        
+    </div>
+</section>

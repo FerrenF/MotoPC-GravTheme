@@ -1,4 +1,4 @@
-# Agency Theme for Grav
+# MotoPC theme for Grav
 
 #![Agency](assets/readme_1.png)
 
