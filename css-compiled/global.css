@@ -5283,7 +5283,21 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  background-color: #3b5794; }
+  background-color: #3b5794;
+  display: grid; }
+
+@media (min-width: 768px) {
+  .btn-xl {
+    padding: 10px 40px;
+    border-color: #1a397e;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #3b5794;
+    display: inline; } }
 
 .btn-xl:hover,
 .btn-xl:focus,
@@ -5406,9 +5420,8 @@ header {
   border-bottom: solid #313e4a 10px; }
 
 header .intro-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 60vw;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
   margin-top: 3vh; }
 
 header h1 {
@@ -5705,13 +5718,27 @@ section#team .container {
   padding: 2em;
   text-align: left; }
 
+@media (max-width: 768px) {
+  section#team .container {
+    margin-left: 2vw;
+    margin-right: 2vw; } }
+
+.team-member {
+  text-align: center;
+  padding: 1vh 0 1vh 0; }
+
+section#team h2 {
+  padding: 8px 0px 7px 20px;
+  border-top: dotted thin #aaa;
+  border-bottom: dotted thin #aaa; }
+
+section#team h4 {
+  padding-left: 30px; }
+
 @media (min-width: 1200px) {
   section#team .container {
     border-radius: 20px;
     text-align: left; } }
-
-.team-member {
-  text-align: center; }
 
 .team-member img {
   margin: 0 auto;
