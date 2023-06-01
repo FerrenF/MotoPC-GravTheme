@@ -45,20 +45,17 @@
                         <div class="modal-body">
                             <h2>{{ portfolio.title }}</h2>
                             <hr class="star-primary">
-                            <img src="{{ page.media[portfolio.img].url }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
+                            <iframe src="{{ portfolio.url }}" class="iframe-responsive iframe-centered" frameborder="0" allowfullscreen></iframe>
                             <p>{{ portfolio.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ portfolio.client }}</a>
-                                    </strong>
+                                    <strong><a href="http://startbootstrap.com">{{ portfolio.client }}</a></strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ portfolio.projectdate }}</a>
-                                    </strong>
+                                    <strong><a href="http://startbootstrap.com">{{ portfolio.projectdate }}</a></strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ portfolio.category }}</a>
-                                    </strong>
+                                    <strong><a href="http://startbootstrap.com">{{ portfolio.category }}</a></strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
